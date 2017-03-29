@@ -28,6 +28,7 @@ Partial Class Form1
         '
         'TextBoxProgram
         '
+        Me.TextBoxProgram.AcceptsReturn = True
         Me.TextBoxProgram.Location = New System.Drawing.Point(174, 54)
         Me.TextBoxProgram.Name = "TextBoxProgram"
         Me.TextBoxProgram.Size = New System.Drawing.Size(100, 20)

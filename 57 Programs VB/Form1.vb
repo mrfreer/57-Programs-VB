@@ -33,4 +33,12 @@
         frmNewForm = CType(Activator.CreateInstance(formType), Form)
         frmNewForm.Show()
     End Sub
+
+    Private Sub TextBoxProgram_KeyPress(sender As Object, e As KeyPressEventArgs) Handles TextBoxProgram.KeyPress
+        If e.KeyChar = Microsoft.VisualBasic.ChrW(Keys.Return) Then
+            Dim programToMake As String = "Program"
+            programToMake += TextBoxProgram.Text
+            getallforms(Me, programToMake)
+        End If
+    End Sub
 End Class

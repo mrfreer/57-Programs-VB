@@ -9,4 +9,6 @@
                 "It's " & curYear & ", " & " so you can retire in " & (curYear + yearsLeft) & "."
         End If
     End Sub
+
+
 End Class
