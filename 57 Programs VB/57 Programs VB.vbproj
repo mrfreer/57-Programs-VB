@@ -130,6 +130,12 @@
     <Compile Include="Program7.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Program8.Designer.vb">
+      <DependentUpon>Program8.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program8.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -158,6 +164,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Program7.resx">
       <DependentUpon>Program7.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program8.resx">
+      <DependentUpon>Program8.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
