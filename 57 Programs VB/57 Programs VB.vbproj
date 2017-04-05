@@ -47,6 +47,9 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -104,6 +107,12 @@
       <DependentUpon>Program10.vb</DependentUpon>
     </Compile>
     <Compile Include="Program10.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program11.Designer.vb">
+      <DependentUpon>Program11.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program11.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program2.Designer.vb">
@@ -165,6 +174,9 @@
     <EmbeddedResource Include="Program10.resx">
       <DependentUpon>Program10.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Program11.resx">
+      <DependentUpon>Program11.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Program2.resx">
       <DependentUpon>Program2.vb</DependentUpon>
     </EmbeddedResource>
@@ -198,6 +210,7 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
