@@ -127,6 +127,12 @@
     <Compile Include="Program13.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Program14.Designer.vb">
+      <DependentUpon>Program14.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program14.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program2.Designer.vb">
       <DependentUpon>Program2.vb</DependentUpon>
     </Compile>
@@ -194,6 +200,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Program13.resx">
       <DependentUpon>Program13.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program14.resx">
+      <DependentUpon>Program14.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Program2.resx">
       <DependentUpon>Program2.vb</DependentUpon>
