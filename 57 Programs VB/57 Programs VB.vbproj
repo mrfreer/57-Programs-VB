@@ -133,6 +133,24 @@
     <Compile Include="Program14.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Program15.Designer.vb">
+      <DependentUpon>Program15.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program15.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program16.Designer.vb">
+      <DependentUpon>Program16.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program16.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Program17.Designer.vb">
+      <DependentUpon>Program17.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Program17.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Program2.Designer.vb">
       <DependentUpon>Program2.vb</DependentUpon>
     </Compile>
@@ -203,6 +221,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Program14.resx">
       <DependentUpon>Program14.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program15.resx">
+      <DependentUpon>Program15.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program16.resx">
+      <DependentUpon>Program16.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Program17.resx">
+      <DependentUpon>Program17.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Program2.resx">
       <DependentUpon>Program2.vb</DependentUpon>
